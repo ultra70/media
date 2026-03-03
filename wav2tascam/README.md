@@ -1,6 +1,6 @@
-# wav2tascam
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+# wav2tascam
 
 Convert WAV files to a format compatible with Tascam Model 12/16/24.
 
