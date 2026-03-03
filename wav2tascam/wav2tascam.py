@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: MIT
-"""wav2tascam - Convert WAV files to Tascam Model series compatible format.
+"""
+wav2tascam - Convert WAV files to Tascam Model series compatible format.
 
 Tascam Model 12/16/24 will not import WAV files that use the
 WAVE_FORMAT_EXTENSIBLE (0xFFFE) header, which is the default output
@@ -13,7 +14,6 @@ This script is not required for 16-bit WAV files.  ffmpeg and SoX only
 default to WAVE_FORMAT_EXTENSIBLE for bit depths above 16.  A 16-bit
 WAV already uses format tag 0x0001 and imports to Tascam Model 12/16/24
 without conversion.
-
 """
 
 import argparse
