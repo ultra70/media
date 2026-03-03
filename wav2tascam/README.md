@@ -2,6 +2,8 @@
 
 Convert WAV files to a format compatible with Tascam Model 12/16/24.
 
+[![][license img]][license]
+
 ## The Problem
 
 Tascam Model 12/16/24 will not import WAV files that use the WAVE\_FORMAT\_EXTENSIBLE (0xFFFE) header format.  Both ffmpeg and SoX default to this format when encoding 24-bit audio.  The Tascam firmware only accepts standard PCM (format tag 0x0001), and presents a generic "File Error" on import with no further explanation.
